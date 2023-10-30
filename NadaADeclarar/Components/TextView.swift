@@ -7,12 +7,28 @@
 
 import SwiftUI
 
+enum TextType {
+    case title
+    case body
+}
+
 struct TextView: View {
+    var text: String
+    var type: TextType
+    
+    init(_ text: String, _ type: TextType) {
+        self.text = text
+        self.type = type
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("\(text)")
+            .font(Font.custom("Montserrat", size: 48))
+            .fontWeight(.black)
+            .multilineTextAlignment(.center)
+            .foregroundColor(Color(red: 21 / 255, green: 0 / 255, blue: 34 / 255))
     }
 }
 
 #Preview {
-    TextView()
+    TextView("Banana", .title)
 }
