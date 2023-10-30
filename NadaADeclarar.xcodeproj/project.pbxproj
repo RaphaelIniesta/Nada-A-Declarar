@@ -15,6 +15,7 @@
 		648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BA7872AF0256E00E7EE32 /* TextView.swift */; };
 		64AA05D32AF035A800FBD63D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64AA05D22AF035A800FBD63D /* Montserrat-Black.ttf */; };
 		64E11C9E2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E11C9D2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf */; };
+		DEA31F102AF0411C00507662 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA31F0F2AF0411C00507662 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		648BA7872AF0256E00E7EE32 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		64AA05D22AF035A800FBD63D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../../../../../../Downloads/Montserrat/static/Montserrat-Black.ttf"; sourceTree = "<group>"; };
 		64E11C9D2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		DEA31F0F2AF0411C00507662 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonView.swift; path = ../../../Downloads/ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +84,8 @@
 		648BA7862AF0256100E7EE32 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DEA31F0F2AF0411C00507662 /* ButtonView.swift */,
 				648BA7872AF0256E00E7EE32 /* TextView.swift */,
-				DEE94FFF2AF0283D00663925 /* ButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -173,7 +175,7 @@
 			files = (
 				648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */,
 				648BA7782AF01EE800E7EE32 /* ContentView.swift in Sources */,
-				DEE950002AF0283D00663925 /* ButtonView.swift in Sources */,
+				DEA31F102AF0411C00507662 /* ButtonView.swift in Sources */,
 				648BA7762AF01EE800E7EE32 /* NadaADeclararApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
