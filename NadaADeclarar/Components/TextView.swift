@@ -21,11 +21,12 @@ struct TextView: View {
         self.type = type
     }
     var body: some View {
-        Text("\(text)")
+        Text(text)
             .font(Font.custom("Montserrat", size: 48))
-            .fontWeight(.black)
             .multilineTextAlignment(.center)
             .foregroundColor(Color(red: 21 / 255, green: 0 / 255, blue: 34 / 255))
+            .fontWeight(type == .title ? .black : type == .body ? .light : .regular)
+
     }
 }
 
