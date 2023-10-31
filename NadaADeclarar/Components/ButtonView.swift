@@ -12,7 +12,7 @@ import SwiftUI
 
 struct ButtonView: View {
     var body: some View {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+        NavigationLink(value: "Ola", label: {
             Image(systemName: "arrow.right")
                 .resizable()
                 .frame(width: 50, height: 50)
@@ -24,6 +24,28 @@ struct ButtonView: View {
     }
 }
 
+struct ButtonRectangleView: View {
+    var placeholder: String
+    var body: some View {
+        NavigationLink(value: "Embarcar", label: {
+            Text(placeholder)
+                .font(Font.custom("Montserrat", size: 38))
+//                .font(.system(size: 38))
+                .fontWeight(.black)
+                .frame(width: 275, height: 75)
+                .foregroundColor(.white)
+                .background(Color(red: 54 / 255, green: 0 / 255, blue: 95 / 255))
+            
+                .cornerRadius(15)
+                
+        })
+    }
+}
+
 #Preview {
-    ButtonView()
+    VStack{
+        ButtonView()
+            .padding(.vertical, 30)
+        ButtonRectangleView(placeholder: "Embarcar")
+    }
 }
