@@ -12,12 +12,8 @@
 		648BA77A2AF01EE900E7EE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BA7792AF01EE900E7EE32 /* Assets.xcassets */; };
 		648BA77D2AF01EE900E7EE32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BA77C2AF01EE900E7EE32 /* Preview Assets.xcassets */; };
 		648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BA7872AF0256E00E7EE32 /* TextView.swift */; };
-<<<<<<< HEAD
-		64AA05D32AF035A800FBD63D /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64AA05D22AF035A800FBD63D /* Montserrat-Black.ttf */; };
-		64E11C9E2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E11C9D2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf */; };
-		DEA31F102AF0411C00507662 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA31F0F2AF0411C00507662 /* ButtonView.swift */; };
-=======
->>>>>>> components
+		64FD84B12AF157C300D0D473 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84AE2AF157C300D0D473 /* ButtonView.swift */; };
+		64FD84B22AF157C300D0D473 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 64FD84AF2AF157C300D0D473 /* Fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +24,8 @@
 		648BA7792AF01EE900E7EE32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		648BA77C2AF01EE900E7EE32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		648BA7872AF0256E00E7EE32 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		64AA05D22AF035A800FBD63D /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../../../../../../Downloads/Montserrat/static/Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		64E11C9D2AF02B3B001B2875 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-VariableFont_wght.ttf"; path = "../../../../../../Downloads/Montserrat/Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
-		DEA31F0F2AF0411C00507662 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonView.swift; path = ../../../Downloads/ButtonView.swift; sourceTree = "<group>"; };
-=======
->>>>>>> components
+		64FD84AE2AF157C300D0D473 /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		64FD84AF2AF157C300D0D473 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +79,8 @@
 		648BA7862AF0256100E7EE32 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				DEA31F0F2AF0411C00507662 /* ButtonView.swift */,
+				64FD84AE2AF157C300D0D473 /* ButtonView.swift */,
+				64FD84AF2AF157C300D0D473 /* Fonts */,
 				648BA7872AF0256E00E7EE32 /* TextView.swift */,
 			);
 			path = Components;
@@ -151,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64FD84B22AF157C300D0D473 /* Fonts in Resources */,
 				648BA77D2AF01EE900E7EE32 /* Preview Assets.xcassets in Resources */,
 				648BA77A2AF01EE900E7EE32 /* Assets.xcassets in Resources */,
 			);
@@ -165,7 +159,7 @@
 			files = (
 				648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */,
 				648BA7782AF01EE800E7EE32 /* ContentView.swift in Sources */,
-				DEA31F102AF0411C00507662 /* ButtonView.swift in Sources */,
+				64FD84B12AF157C300D0D473 /* ButtonView.swift in Sources */,
 				648BA7762AF01EE800E7EE32 /* NadaADeclararApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
