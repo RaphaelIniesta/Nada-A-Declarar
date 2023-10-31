@@ -16,6 +16,8 @@
 		64FD84B92AF15E1100D0D473 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84B82AF15E1100D0D473 /* ButtonView.swift */; };
 		64FD84BC2AF15F3800D0D473 /* Onboarding-one.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84BB2AF15F3800D0D473 /* Onboarding-one.swift */; };
 		64FD84C12AF1764900D0D473 /* Onboarding-two.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84C02AF1764900D0D473 /* Onboarding-two.swift */; };
+		64FD84C42AF1898400D0D473 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84C32AF1898400D0D473 /* HomeView.swift */; };
+		64FD84C62AF18B4800D0D473 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84C52AF18B4800D0D473 /* SidebarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		64FD84B82AF15E1100D0D473 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		64FD84BB2AF15F3800D0D473 /* Onboarding-one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding-one.swift"; sourceTree = "<group>"; };
 		64FD84C02AF1764900D0D473 /* Onboarding-two.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding-two.swift"; sourceTree = "<group>"; };
+		64FD84C32AF1898400D0D473 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64FD84C52AF18B4800D0D473 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				64792FF52AF0364200A9A4A4 /* Info.plist */,
 				648BA7862AF0256100E7EE32 /* Components */,
+				64FD84C22AF17DFE00D0D473 /* Home */,
 				64FD84BA2AF15E2800D0D473 /* Onboarding */,
 				648BA7752AF01EE800E7EE32 /* NadaADeclararApp.swift */,
 				648BA7772AF01EE800E7EE32 /* ContentView.swift */,
@@ -87,6 +92,7 @@
 				64FD84AF2AF157C300D0D473 /* Fonts */,
 				648BA7872AF0256E00E7EE32 /* TextView.swift */,
 				64FD84B82AF15E1100D0D473 /* ButtonView.swift */,
+				64FD84C52AF18B4800D0D473 /* SidebarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -98,6 +104,14 @@
 				64FD84C02AF1764900D0D473 /* Onboarding-two.swift */,
 			);
 			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		64FD84C22AF17DFE00D0D473 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				64FD84C32AF1898400D0D473 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */,
+				64FD84C62AF18B4800D0D473 /* SidebarView.swift in Sources */,
+				64FD84C42AF1898400D0D473 /* HomeView.swift in Sources */,
 				648BA7782AF01EE800E7EE32 /* ContentView.swift in Sources */,
 				64FD84B92AF15E1100D0D473 /* ButtonView.swift in Sources */,
 				64FD84C12AF1764900D0D473 /* Onboarding-two.swift in Sources */,

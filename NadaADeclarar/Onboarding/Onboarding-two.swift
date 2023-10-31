@@ -14,7 +14,10 @@ struct Onboarding_two: View {
                 .frame(width: 837)
             
             ButtonView()
+                .padding(.bottom, 450)
         }
+        .background(Image("Onboarding 2")
+            .ignoresSafeArea())
     }
 }
 

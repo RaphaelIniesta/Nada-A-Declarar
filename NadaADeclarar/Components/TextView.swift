@@ -16,10 +16,12 @@ enum TextType {
 struct TextView: View {
     var text: String
     var type: TextType
+    var width: Int
     
-    init(_ text: String, _ type: TextType) {
+    init(_ text: String, _ type: TextType, _ width: Int = 10000000) {
         self.text = text
         self.type = type
+        self.width = width
     }
     var body: some View {
         Text(text)
