@@ -5,7 +5,7 @@
 //  Created by Igor Bragança Toledo on 30/10/23.
 //
 
-//Teste github
+//Teste nova branch
 
 import Foundation
 import SwiftUI
@@ -30,14 +30,11 @@ struct ButtonRectangleView: View {
         NavigationLink(value: "Embarcar", label: {
             Text(placeholder)
                 .font(Font.custom("Montserrat", size: 38))
-//                .font(.system(size: 38))
                 .fontWeight(.black)
                 .frame(width: 275, height: 75)
                 .foregroundColor(.white)
                 .background(Color(red: 54 / 255, green: 0 / 255, blue: 95 / 255))
-            
                 .cornerRadius(15)
-                
         })
     }
 }
