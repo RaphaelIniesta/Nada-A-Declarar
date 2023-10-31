@@ -1,0 +1,10 @@
+[14:44:22 2023-10-31] FETCHING Version 2.25.2
+[14:44:22 2023-10-31] CREATING /Users/igorbragancatoledo/.spicetify
+[14:44:22 2023-10-31] DOWNLOADING https://github.com/spicetify/spicetify-cli/releases/download/v2.25.2/spicetify-2.25.2-darwin-arm64.tar.gz
+[14:44:23 2023-10-31] EXTRACTING /Users/igorbragancatoledo/.spicetify/spicetify.tar.gz
+[14:44:23 2023-10-31] SETTING EXECUTABLE PERMISSIONS TO /Users/igorbragancatoledo/.spicetify/spicetify
+[14:44:23 2023-10-31] REMOVING /Users/igorbragancatoledo/.spicetify/spicetify.tar.gz
+[14:44:23 2023-10-31] APPENDING /Users/igorbragancatoledo/.spicetify to PATH in /Users/igorbragancatoledo/.zshrc
+[14:44:23 2023-10-31] Restart your shell to have spicetify in your PATH.
+[14:44:23 2023-10-31] spicetify v2.25.2 was installed successfully to /Users/igorbragancatoledo/.spicetify
+[14:44:23 2023-10-31] Run 'spicetify --help' to get started

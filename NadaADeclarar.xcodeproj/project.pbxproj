@@ -15,6 +15,7 @@
 		64FD84B22AF157C300D0D473 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 64FD84AF2AF157C300D0D473 /* Fonts */; };
 		64FD84B92AF15E1100D0D473 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84B82AF15E1100D0D473 /* ButtonView.swift */; };
 		64FD84BC2AF15F3800D0D473 /* Onboarding-one.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD84BB2AF15F3800D0D473 /* Onboarding-one.swift */; };
+		DEBF98702AF175FE00F3681E /* Onboarding-three.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBF986F2AF175FE00F3681E /* Onboarding-three.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		64FD84AF2AF157C300D0D473 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
 		64FD84B82AF15E1100D0D473 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		64FD84BB2AF15F3800D0D473 /* Onboarding-one.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding-one.swift"; sourceTree = "<group>"; };
+		DEBF986F2AF175FE00F3681E /* Onboarding-three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding-three.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				64FD84BB2AF15F3800D0D473 /* Onboarding-one.swift */,
+				DEBF986F2AF175FE00F3681E /* Onboarding-three.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				64FD84B92AF15E1100D0D473 /* ButtonView.swift in Sources */,
 				648BA7762AF01EE800E7EE32 /* NadaADeclararApp.swift in Sources */,
 				64FD84BC2AF15F3800D0D473 /* Onboarding-one.swift in Sources */,
+				DEBF98702AF175FE00F3681E /* Onboarding-three.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
