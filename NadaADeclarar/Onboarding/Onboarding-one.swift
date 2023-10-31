@@ -18,7 +18,7 @@ struct Onboarding_one: View {
                 .padding(.leading, 150)
         }
         .padding(.trailing, 550)
-        .padding(.top, )
+        .padding(.top, 100)
         .background(Image("Onboarding 1")
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .ignoresSafeArea())
