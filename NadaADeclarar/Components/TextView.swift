@@ -35,9 +35,9 @@ struct TextView: View {
 
 #Preview {
     VStack{
-        TextView("Banana", .title)
-        TextView("Banana", .subtitle)
-        TextView("Banana", .body)
+        TextView("Batata frita grande", .title)
+        TextView("Bata frita pequena", .subtitle)
+        TextView("Batata frita media", .body)
     }
 
 }
