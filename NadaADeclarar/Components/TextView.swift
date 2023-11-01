@@ -11,6 +11,7 @@ enum TextType {
     case title
     case subtitle
     case body
+    case bold
 }
 
 struct TextView: View {
@@ -26,10 +27,10 @@ struct TextView: View {
     var body: some View {
         Text(text)
 //            .font(Font.custom("Montserrat-Black", size: 48))
-            .font(type == .title ? Font.custom("Montserrat", size: 48) : type == .subtitle ? Font.custom("Montserrat", size: 28) : Font.custom("Montserrat", size: 36))
-            .fontWeight(type == .title ? .black : .regular)
+            .font(type == .title ? Font.custom("Montserrat", size: 48) : type == .subtitle ? Font.custom("Montserrat", size: 28) : type == .body ? Font.custom("Montserrat", size: 36) : Font.custom("Montserrat", size: 22))
+            .fontWeight(type == .title ? .black : type == .body || type == .subtitle ? .regular : .semibold)
             .multilineTextAlignment(.center)
-            .foregroundColor(type == .title || type == .body ? Color(red: 54/255, green: 0/255, blue: 86/255) : Color(red: 45/255, green: 45/255, blue: 45/255))
+            .foregroundColor(type == .title || type == .body || type == .bold ? Color(red: 54/255, green: 0/255, blue: 86/255) : Color(red: 45/255, green: 45/255, blue: 45/255))
     }
 }
 
@@ -38,6 +39,7 @@ struct TextView: View {
         TextView("Batata frita grande", .title)
         TextView("Bata frita pequena", .subtitle)
         TextView("Batata frita media", .body)
+        TextView("Pão de Mel", .bold)
     }
 
 }

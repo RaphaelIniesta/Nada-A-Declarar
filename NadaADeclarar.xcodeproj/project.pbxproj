@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		640934362AF281F30015FA37 /* Recentes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640934352AF281F30015FA37 /* Recentes.swift */; };
+		640934382AF2850D0015FA37 /* CriarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640934372AF2850D0015FA37 /* CriarView.swift */; };
 		648BA7762AF01EE800E7EE32 /* NadaADeclararApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BA7752AF01EE800E7EE32 /* NadaADeclararApp.swift */; };
 		648BA7782AF01EE800E7EE32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648BA7772AF01EE800E7EE32 /* ContentView.swift */; };
 		648BA77A2AF01EE900E7EE32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 648BA7792AF01EE900E7EE32 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		640934352AF281F30015FA37 /* Recentes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recentes.swift; sourceTree = "<group>"; };
+		640934372AF2850D0015FA37 /* CriarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CriarView.swift; sourceTree = "<group>"; };
 		64792FF52AF0364200A9A4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		648BA7722AF01EE800E7EE32 /* NadaADeclarar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NadaADeclarar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		648BA7752AF01EE800E7EE32 /* NadaADeclararApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NadaADeclararApp.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				64FD84C32AF1898400D0D473 /* HomeView.swift */,
+				640934352AF281F30015FA37 /* Recentes.swift */,
+				640934372AF2850D0015FA37 /* CriarView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -189,11 +195,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				648BA7882AF0256E00E7EE32 /* TextView.swift in Sources */,
+				640934382AF2850D0015FA37 /* CriarView.swift in Sources */,
 				64FD84C62AF18B4800D0D473 /* SidebarView.swift in Sources */,
 				64FD84C42AF1898400D0D473 /* HomeView.swift in Sources */,
 				648BA7782AF01EE800E7EE32 /* ContentView.swift in Sources */,
 				64FD84B92AF15E1100D0D473 /* ButtonView.swift in Sources */,
 				64FD84C12AF1764900D0D473 /* Onboarding-two.swift in Sources */,
+				640934362AF281F30015FA37 /* Recentes.swift in Sources */,
 				648BA7762AF01EE800E7EE32 /* NadaADeclararApp.swift in Sources */,
 				64FD84BC2AF15F3800D0D473 /* Onboarding-one.swift in Sources */,
 				64FD84CC2AF1941C00D0D473 /* Onboarding-three.swift in Sources */,
