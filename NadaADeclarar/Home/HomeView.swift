@@ -12,6 +12,7 @@ struct HomeView: View {
     var descricao: [String] = ["Criar Planeta", "Nubank", "INSS", "XP Invest", "C6"]
     
     var body: some View {
+        // Comentário
         NavigationStack {
             ZStack {
                 HStack(alignment: .top) {
